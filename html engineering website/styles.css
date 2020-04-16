@@ -1,0 +1,129 @@
+@import
+url('https://fonts.googleapis.com/css?family=Dosis: 300,400,700');
+
+*{
+	box-sizing: border-box;
+	
+}
+h1{
+	font-weight:400;
+	font-size: 4.5rem
+	
+}
+body {
+	margin:1em;
+	font-family: 'Dosis', sans-serif;
+	text-align:center;
+}
+
+img {
+	padding:0;
+	max-width: device-width;
+	margin: 0;
+}
+header{
+	position: absolute;
+	width: 100%;
+	margin-top: .97em;
+	text-align:center;
+	
+}
+.container{
+
+	
+}
+nav u1 {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+.name{
+	font-size: 1.75em;
+	padding:.75em 3em ;
+	color:#ccffff
+}
+.title{
+	
+	font-size: 2.5em;
+	margin-bottom: 1.5em;
+}
+.title span{
+	font-size:1.75;
+	font-weight: 300;
+	display:block;
+}
+nav li {
+	display: inline-block;
+}
+nav a{
+	font-weight: 300;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 2.5rem;
+	padding:3em;
+	color: #cc7a00;
+	
+}
+nav a:hover,
+nav a:focus{
+	color:#FFF;
+}
+.home{
+	margin: 0;
+	background-image:url(server.jpg);
+	background-size: cover;
+	background-position: center;
+	background-size: 100% 100%;
+	url('server.jpg');
+	padding: 10em 0;
+	
+	color: #cc7a00;
+}
+@media(min-width: 60rem){
+	.home{
+		height:100vh;
+		padding-top: 50vh
+	}
+}
+
+.button{
+	text-decoration: none;
+	text-transform: uppercase;
+	color:#ccffff;
+	font-size: 2.5em;
+	border-style: solid;
+	padding: .75em 2em;
+}
+.aboutTextBox{
+	color: #ffffff;
+	font-size: 1em;
+	outline: 2px solid #cc7a00;
+	outline-offset: 3.5em;
+
+}
+.aboutMe{
+	
+	color:#cc7a00; 
+	background-color:#232323;
+	padding: 3.5em;
+	
+	
+}
+.pItem{
+	margin=0; 
+	position relative;
+	
+}
+.projects{
+	
+	
+
+}
+.desc{
+	position absolute;
+	text-decoration: none;
+	text-transform: uppercase;
+	color:#00334d;
+
+
+}
