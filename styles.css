@@ -11,7 +11,7 @@ h1{
 	
 }
 body {
-	margin:1em;
+	margin:0;
 	font-family: 'Dosis', sans-serif;
 	text-align:center;
 }
@@ -24,7 +24,7 @@ img {
 header{
 	position: absolute;
 	width: 100%;
-	margin-top: .97em;
+	margin :1em;
 	text-align:center;
 	
 }
@@ -32,6 +32,7 @@ header{
 
 	
 }
+
 nav u1 {
 	margin:0;
 	padding:0;
@@ -68,17 +69,23 @@ nav a:hover,
 nav a:focus{
 	color:#FFF;
 }
+footer {
+	font-size: 2.5rem;
+		font-weight: 300;
+	
+}
 .home{
-	margin: 0;
+	margin: 0em;
+	width:100%;
 	background-image:url(server.jpg);
 	background-size: cover;
 	background-position: center;
-	background-size: 100% 100%;
 	url('server.jpg');
-	padding: 10em 0;
+	
 	
 	color: #cc7a00;
 }
+
 @media(min-width: 60rem){
 	.home{
 		height:100vh;
@@ -92,38 +99,70 @@ nav a:focus{
 	color:#ccffff;
 	font-size: 2.5em;
 	border-style: solid;
-	padding: .75em 2em;
+	border-bottom-width: 4px;
+	padding: .75em 1em;
 }
+.button-cap{
+	padding: .75em 0.75em;
+	
+	
+}
+
 .aboutTextBox{
 	color: #ffffff;
 	font-size: 1em;
 	outline: 2px solid #cc7a00;
-	outline-offset: 3.5em;
+	outline-offset: 1.5em;
+	
 
 }
 .aboutMe{
 	
 	color:#cc7a00; 
 	background-color:#232323;
-	padding: 3.5em;
 	
+	padding: 2em;
 	
-}
-.pItem{
-	margin=0; 
-	position relative;
 	
 }
 .projects{
-	
+margin: 3em 0;
 	
 
 }
+.projects a{
+	max width: device-width ;
+	color:#003de3;
+	font-size: 0.5em;
+	
+	
+	
+}
+.projects img{
+  width: 100%;
+  height: auto;
+  background-color:1bd1cb;
+}
+.pItem{
+	margin:0; 
+	position: relative;
+	
+	
+}
+
+
+
 .desc{
-	position absolute;
+	position: absolute;
+	z-index: 600;
 	text-decoration: none;
 	text-transform: uppercase;
-	color:#00334d;
-
-
+	bottom: 1.5em; 
+	left: 11em;
+	right: 0em;
+	
+	
 }
+
+
+
